@@ -1,0 +1,163 @@
+.title {
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 250%;
+  margin-left: 3%;
+}
+
+.sponsors {
+  float: left;
+}
+
+footer {
+  float: right;
+  width: 100%;
+}
+
+.footer_logo {
+  margin-left: 50px;
+}
+
+.article_div_link {
+  text-decoration: none;
+}
+
+.article_div {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.article {
+  width: 30%;
+  height: 420px;
+  float: left;
+  margin-right: 3%;
+  background-color: #191919;
+  margin-bottom: 3%;
+}
+
+.article_img {
+  width: 100%;
+  margin: 0;
+}
+
+.article_title {
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 8px;
+  margin-left: 0;
+  margin-bottom: 0;
+  transition: color .2s;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.article_title:hover {
+  color: #3ac144;
+  text-decoration: none;
+}
+
+.article_date {
+  color: #3ac144;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
+.article_txt {
+  color: #adadad;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 130%;
+  margin-top: 8px;
+}
+
+.article_txt2 {
+  color: #adadad;
+  text-decoration: none;
+}
+
+.article_link {
+  color: #3ac144;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.article_link:hover {
+  color: #73d57a;
+  text-decoration: none;
+}
+
+@media (max-width: 1025px) {
+
+.article_div {
+  width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.article {
+  width: 48%;
+  margin-right: 2%;
+}
+
+}
+
+@media (max-width: 575px) {
+
+.article_div {
+  width: 92%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.article {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 25px;
+  margin-right: 0;
+  height: auto;
+}
+
+}
+
+@media (max-width: 430px) {
+
+.title {
+  font-size: 200%;
+}
+
+}
+
+@media (max-width: 330px) {
+
+.title {
+  font-size: 180%;
+}
+
+.article_title {
+  font-size: 130%;
+}
+
+.article_date {
+  font-size: 95%;
+}
+
+.article_txt {
+  font-size: 95%;
+}
+
+.article_link {
+  font-size: 95%;
+}
+
+}

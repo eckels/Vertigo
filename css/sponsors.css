@@ -1,0 +1,14 @@
+.title {
+  font-size: 280%;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sponsor {
+  width: 30%;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-bottom: 30px;
+}

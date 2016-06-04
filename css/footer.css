@@ -1,0 +1,136 @@
+.sponsors {
+  display: block;
+  height: 70px;
+  width: 100%;
+  background-color: #4bc955;
+  background-image: url("http://www.vertigo.gg/img/sponsors/sponsors.png");
+  background-size: auto 70px;
+  background-repeat: repeat-x;
+}
+
+footer {
+  background-color: #191919;
+  padding: 25px;
+  height: 85px;
+}
+
+.footer_logo {
+  float:left;
+  height: 80px;
+  width: auto;
+}
+
+.footer_title {
+  float: left;
+  font-size: 35px;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
+
+.footer_list {
+  float: left;
+  align-items: center;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_item {
+  display: inline-block;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+  transition: color .3s;
+}
+
+.footer_link:hover {
+  color: #3ac144;
+}
+
+.footer_icon {
+  float: right;
+  height: 50px;
+  width: auto;
+  margin-top: 16px;
+}
+
+@media (max-width: 1130px) {
+
+footer {
+  padding: 15px;
+  height: 75px;
+}
+
+.footer_logo {
+  height: 70px;
+}
+
+.footer_title {
+  font-size: 30px;
+  margin-right: 0px;
+}
+
+.footer_list {
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+.footer_item {
+  font-size: 85%;
+}
+
+.footer_icon {
+  height: 40px;
+  margin-top: 20px;
+}
+}
+
+@media (max-width: 934px) {
+
+footer {
+  height: 75px;
+}
+
+.footer_logo {
+  display: none;
+}
+
+.footer_title {
+  display: none;
+}
+
+.footer_list {
+  float: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+  padding-left: 0;
+}
+
+.footer_icon {
+  float: none;
+  margin: 0;
+}
+
+.footer_icon_div {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors {
+  height: 36px;
+  background-size: auto 36px;
+}
+
+.footer_item {
+  font-size: 73%;
+}
+}

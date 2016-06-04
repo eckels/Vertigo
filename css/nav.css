@@ -1,0 +1,214 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.nav {
+  background-color: #191919;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  margin-bottom: 0;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #303030;
+  border-right: solid;
+}
+
+.nav_buff {
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_logo {
+  float: left;
+  height: 60px;
+  width: auto;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.nav_title {
+  float: left;
+  color: white;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 0px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.nav_list {
+  float: right;
+  padding: 0;
+  margin: 0;
+  margin-right: 0px;
+}
+
+.nav_item {
+  display: inline-block;
+  margin: 0 -3px 0 0;
+  padding: 26px 0px 25px 0px;
+  border-left: solid;
+  border-color: #303030;
+  border-spacing: 0px;
+  border-width: 1px;
+  text-align: center;
+  width: 90px;
+  transition: background-color .4s;
+}
+
+.nav_item:hover {
+  background-color: #3ac144;
+}
+
+.nav_link {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.cbp-spmenu {display: none;}
+.nav2_button {display: none;}
+.nav_mobile {display: none;}
+.nav_mobile_buff {display: none;}
+
+@media (max-width: 1025px) {
+
+  .nav {display: none;}
+  .nav_buff {display: none;}
+  .nav2_button {display: block;}
+  .cbp-spmenu {display: block;}
+
+.cbp-spmenu {
+	background: #303030;
+	position: fixed;
+  height: 100%;
+  z-index: 2;
+}
+
+.cbp-spmenu h3 {
+	color: #afdefa;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #0d77b6;
+}
+
+.cbp-spmenu .nav2_link {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu .nav2_link:hover {
+	background: #3ac144;
+}
+
+.cbp-spmenu .nav2_link:active {
+	background: #3ac144;
+	color: white;
+}
+
+.nav2_link {
+	border-bottom: 1px solid #191919;
+	padding: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h3 {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.cbp-spmenu-horizontal .nav2_link {
+	float: left;
+	width: 20%;
+	padding: 0.8em;
+	border-left: 1px solid #191919;
+}
+
+.cbp-spmenu-right {
+	right: -320px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+.cbp-spmenu {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.nav2_title {
+  color: white;
+  font-size: 130%;
+  padding: 25px 70px 19px 20px;
+  margin: 0;
+  background-color: #191919;
+  font-family: 'Russo One', sans-serif;
+}
+
+.nav_icon {
+  float: right;
+  height: 50px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.nav_icon_div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav2_button {
+  background-image: url("http://www.vertigo.gg/img/nav.png");
+  background-size: 30px 30px;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 21px;
+  right: 19px;
+  outline: none;
+  z-index: 3;
+}
+
+.nav_mobile {
+  display: block;
+  background-color: #191919;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+}
+
+.nav_mobile_logo {
+  float: left;
+  height: auto;
+  width: 66px;
+  padding-left: 50%;
+  margin-left: -33px;
+  margin-top: 8px;
+}
+
+.nav_mobile_buff {
+  display: block;
+  background-color: transparent;
+  height: 69px;
+  width: 100%;
+}
+
+}

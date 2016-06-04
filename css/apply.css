@@ -1,0 +1,102 @@
+.sponsors {
+  float: left;
+}
+
+footer {
+  float: right;
+  width: 100%;
+}
+
+.footer_logo {
+  margin-left: 50px;
+}
+
+.title {
+  font-size: 280%;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title_desc {
+  color: white;
+  text-align: center;
+  font-size: 110%;
+  margin-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 40px;
+  line-height: 150%;
+}
+
+.box_div {
+  width: 94%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.box {
+  background-color: #191919;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+  margin-bottom: 35px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.box:hover {
+  background-color: #3ac144;
+}
+
+.box_img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.box_text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 160%;
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 620px) {
+
+.title {
+  font-size: 240%;
+}
+
+.title_desc {
+  font-size: 100%;
+}
+
+.box {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+}
+
+@media (max-width: 500px) {
+
+.title {
+  font-size: 200%;
+}
+
+.title_desc {
+  font-size: 95%;
+}
+
+.box_text {
+  font-size: 130%;
+}
+
+}

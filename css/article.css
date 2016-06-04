@@ -1,0 +1,178 @@
+.article_div {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.article_title {
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.article_date {
+  color: #3ac144;
+  font-size: 130%;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.article_author {
+  color: white;
+  font-size: 140%;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.article_img_lrg {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+.article_img_med {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
+}
+
+.article_img_small {
+  width: 26%;
+  margin-right: 37%;
+  margin-left: 37%;
+  margin-bottom: 20px;
+}
+
+.article_header {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 120%;
+}
+
+.article_txt {
+  margin-top: 0;
+  color: #adadad;
+  line-height: 160%;
+  font-size: 110%;
+}
+
+.article_caption {
+  margin-top: -14px;
+  font-size: 100%;
+  color: #adadad;
+}
+
+.article_link {
+  color: #3ac144;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.article_link:hover {
+  color: #73d57a;
+}
+
+@media (max-width: 1025px) {
+
+.article_title {
+  font-size: 170%;
+}
+
+.article_date {
+  font-size: 110%;
+}
+
+.article_author {
+  font-size: 110%;
+}
+
+.article_header {
+  font-size: 115%;
+}
+
+.article_txt {
+  font-size: 105%;
+}
+
+.article_caption {
+  font-size: 100%;
+}
+
+.article_img_lrg {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+
+.article_img_med {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+.article_img_small {
+  width: 36%;
+  margin-right: 32%;
+  margin-left: 32%;
+  margin-bottom: 20px;
+}
+
+}
+
+
+@media (max-width: 500px) {
+
+.article_title {
+  font-size: 140%;
+}
+
+.article_date {
+  font-size: 100%;
+}
+
+.article_author {
+  font-size: 100%;
+}
+
+.article_header {
+  font-size: 105%;
+}
+
+.article_txt {
+  font-size: 95%;
+}
+
+.article_caption {
+  font-size: 90%;
+  margin-top: -11px;
+}
+
+.article_img_lrg {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 15px;
+}
+
+.article_img_med {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+
+.article_img_small {
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 15px;
+}
+
+}

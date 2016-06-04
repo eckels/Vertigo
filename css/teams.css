@@ -1,0 +1,139 @@
+.sponsors {
+  float: left;
+}
+
+footer {
+  float: right;
+  width: 100%;
+}
+
+.footer_logo {
+  margin-left: 50px;
+}
+
+.title {
+  font-size: 280%;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title_desc {
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.team_div {
+  width: 94%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.team {
+  background-color: #191919;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+  margin-bottom: 30px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.team:hover {
+  background-color: #3ac144;
+}
+
+.team_img1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-image: url("http://www.vertigo.gg/img/general/black_photo_wide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team_img2 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: #3f3f3f;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team_img3 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: #3f3f3f;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team_img4 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: #3f3f3f;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team_title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 160%;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.team_desc {
+  color: white;
+  text-align: center;
+  margin-top: 7px;
+}
+
+@media (max-width: 620px) {
+
+.title {
+  font-size: 240%;
+}
+
+.title_desc {
+  font-size: 100%;
+}
+
+.team {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+}
+
+@media (max-width: 500px) {
+
+.title {
+  font-size: 200%;
+}
+
+.title_desc {
+  font-size: 95%;
+}
+
+.team_title {
+  font-size: 130%;
+}
+
+.team_desc {
+  font-size: 95%;
+}
+
+}
